@@ -4,7 +4,7 @@
 
 Este programa servirá para establecer la trayectoria a describir por el
 avión.  Contiene la maniobra de giro, seguida por otra de ascenso.  Al final se
-procederá a exportar las características y cómo varían a lo largo de la
+procederá a exportar las características y cómo
 trayectoria para poder obtener sus gráficas.
 """
 from math import exp, radians, cos, pi, sin, degrees, atan, log10
@@ -43,8 +43,7 @@ H_ISA7 = 84852
 # y se relacionarán con los valores de T y alfa para cada altura estipulada.
 
 def temperature(alt):
-    '''Cálculo de la temperatura en función de la altura dada por el modelo
-    ISA.
+    '''Cálculo de la temperatura en función de la altura dada por el 
     '''
     if alt < H_ISA1:
         h_0 = 0
